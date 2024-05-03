@@ -1,0 +1,29 @@
+.navbar {
+  background-color: purple;
+  height: 70px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar-icon-container {
+  position: relative;
+}
+.navbar-badge {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1000;
+  background-color: tomato;
+  top: -10px;
+  left: 15px;
+  overflow: hidden;
+}
+.navbar-badge p {
+  font-size: 14px;
+  font-weight: bold;
+}

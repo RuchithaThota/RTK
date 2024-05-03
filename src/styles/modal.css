@@ -1,0 +1,52 @@
+.modal-wrapper {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.modal {
+  max-width: 360px;
+  width: 90%;
+  border-radius: 5px;
+  background-color: white;
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.modal h1 {
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+
+.modal div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.modal div button {
+  border-radius: 5px;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.clear-btn {
+  border: 2px solid tomato;
+  color: tomato;
+}
+.confirm-btn {
+  border: 2px solid purple;
+  color: purple;
+}
+@media screen and (max-width: 600px) {
+  .modal div button {
+    font-size: 12px;
+  }
+}
